@@ -27,6 +27,7 @@ namespace MainApp
                         string location = Console.ReadLine();
                         string customExcelSavingPath = location + "\\" + fileName;
                         ExcelExport.GenerateExcel(ConvertToDataTable(userList), customExcelSavingPath);
+
                         break;
                     default:
                         break;
